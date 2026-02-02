@@ -46,7 +46,7 @@ elif modele == "Arbre de décision":
 
 # Entraînement
 model.fit(x_train, y_train)
-prediction_test = model.predict(x_test)
+prediction_test = model.predict_proba(x_test)
 
 # ==========================
 #     PERFORMANCE
